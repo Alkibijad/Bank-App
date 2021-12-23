@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(216, 215, 215);
+}
+
+h1 {
+  text-align: center;
+  margin-top: 5px;
+}
+.buttons {
+  text-align: center;
+  margin: 10px 100px;
+}
+
+.buttons button {
+  color: red;
+  padding: 10px 10px;
+  border: none;
+  font-size: 1.25rem;
+  border-radius: 10px;
+}
+.control-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.btn-bars {
+  font-size: 40px;
+  position: absolute;
+  top: 0;
+  left: 20px;
+}
+
+.nav-slider {
+  height: 100vh;
+  width: 200px;
+  background: rgb(167, 161, 161);
+  position: absolute;
+  left: -200px;
+  transition: left 0.4s linear;
+}
+.button-hold {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.button-hold button {
+  margin: 10px;
+}
+.nav-slider-active {
+  border-radius: 0px 10px;
+  display: block;
+  left: 0;
+  transition: left 0.4s linear;
+}
+
+.section-accounts {
+  display: none;
+}
+.section-add-account {
+  display: none;
+}
+.section-edit-delete-account {
+  display: none;
+}
+
+.edit-section {
+  display: none;
+}
